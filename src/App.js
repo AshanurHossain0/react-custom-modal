@@ -1,13 +1,12 @@
-
+import React from 'react';
 import './App.css';
-import Home from './components/Home';
+import MyModal from './components/MyModal';
 
 function App() {
   return (
-    <div>
-      <Home/>
-    </div>
+    <MyModal/>
   );
 }
 
 export default App;
+
